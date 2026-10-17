@@ -1,6 +1,6 @@
 # Smart Lighting System with OOP
 
-**Module 7 / Vibe Coding with OOP Lab**
+**Module 7 / Python OOP Lab**
 
 A lightweight, object-oriented Python implementation of a smart lighting control system. This project demonstrates core Object-Oriented Programming (OOP) principles, defensive input validation, automated unit testing with Python's standard `unittest` framework, and clean modular code organization.
 
@@ -79,11 +79,6 @@ The test suite in `test_smart_light.py` contains 7 automated unit tests covering
 | `test_set_brightness_negative` | Ensures passing a negative brightness level (e.g., -5) raises a `ValueError`. |
 | `test_set_brightness_wrong_type` | Verifies that passing non-numeric types (such as strings or booleans) raises a `TypeError`. |
 
----
-
-## AI Assistance
-
-The initial structure and unit test boilerplate for this project were generated with the assistance of a Large Language Model (LLM) as part of the *Vibe Coding with OOP* coursework. The implementation, class interfaces, type constraints, and test cases were thoroughly reviewed, modularized into dedicated files, and validated through local test execution.
 
 ---
 
